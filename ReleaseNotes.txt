@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+Alexware LogoSaver
+	v0.0.1a4
+
+	High Priority
+		- 'DragonAPI.dll' has been created to replace 'Fluorine64.dll'.
+		- 'DragonAPI.dll' has reworked the directory structure. The images are still in the same directory.
+		- Removed unused fonts, configs, and other junk. LogoSaver is much smaller now.
+	Low Priority
+		- Fixed a spelling mistake in HardwareRequirements.txt.
+		- Configured the 'ImageLoader.exe' manifest to include updated information.
+
+----------------------------------------------------------------------

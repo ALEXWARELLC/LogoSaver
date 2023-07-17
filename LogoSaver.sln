@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoSaver", "LogoSaver\LogoSaver.csproj", "{9A90D228-3442-481F-856D-C70EE9F9258D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{8B93FFE0-FD1A-421A-A46B-400357222438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLoader", "ImageLoader\ImageLoader.csproj", "{3B1AA5FC-2068-423A-8C5D-DF75A063F8B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{76EBCB8D-AF8C-4399-8287-2E3F16E558F6}"
+	ProjectSection(SolutionItems) = preProject
+		ReleaseNotes.txt = ReleaseNotes.txt
+		TODO.txt = TODO.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{D2BD6EBB-349C-407B-BF2E-05A4D4B92BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{8D0D9951-C8D8-4433-9FA1-3C656F44067E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragonAPI", "DragonAPI\DragonAPI.csproj", "{2942D977-8C9D-4369-8D57-ADBCA4675AB0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A90D228-3442-481F-856D-C70EE9F9258D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A90D228-3442-481F-856D-C70EE9F9258D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A90D228-3442-481F-856D-C70EE9F9258D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A90D228-3442-481F-856D-C70EE9F9258D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1AA5FC-2068-423A-8C5D-DF75A063F8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1AA5FC-2068-423A-8C5D-DF75A063F8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1AA5FC-2068-423A-8C5D-DF75A063F8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1AA5FC-2068-423A-8C5D-DF75A063F8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0D9951-C8D8-4433-9FA1-3C656F44067E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0D9951-C8D8-4433-9FA1-3C656F44067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0D9951-C8D8-4433-9FA1-3C656F44067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0D9951-C8D8-4433-9FA1-3C656F44067E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2942D977-8C9D-4369-8D57-ADBCA4675AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2942D977-8C9D-4369-8D57-ADBCA4675AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2942D977-8C9D-4369-8D57-ADBCA4675AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2942D977-8C9D-4369-8D57-ADBCA4675AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B1AA5FC-2068-423A-8C5D-DF75A063F8B5} = {8B93FFE0-FD1A-421A-A46B-400357222438}
+		{8D0D9951-C8D8-4433-9FA1-3C656F44067E} = {8B93FFE0-FD1A-421A-A46B-400357222438}
+		{2942D977-8C9D-4369-8D57-ADBCA4675AB0} = {D2BD6EBB-349C-407B-BF2E-05A4D4B92BA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ABE9D40-EB28-4740-8370-C4104B91EBB2}
+	EndGlobalSection
+EndGlobal

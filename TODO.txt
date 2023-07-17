@@ -1,0 +1,9 @@
+LogoSaver
+	|- Update Utility -- Requires "Fluorine Framework" (In-Progress)
+	|    |- File Downloader [Uses Fluorine Framework] (Done)
+	|    |- Unzip Utility (In-Progress)
+	|    |- Standalone Installer Application
+
+Alexware Fluorine Framework -- [Universal Framework for all Alexware LLC Products using C#] (Pre Release) (Done)
+	|- Create Framework (Done)
+	|- Rework LogoSaver to work using Fluorine Framework (Done)

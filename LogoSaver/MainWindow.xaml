@@ -1,0 +1,5 @@
+﻿<Window x:Class="LogoSaver.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:LogoSaver" mc:Ignorable="d" Title="LogoSaver" Height="1080" Width="1920" ResizeMode="CanResize" WindowStyle="None" WindowState="Maximized" WindowStartupLocation="CenterScreen" Background="#000000" ContentRendered="Window_ContentRendered" KeyDown="Window_KeyDown" Closed="Window_Closed" BorderThickness="1,1,1,1" BorderBrush="MediumPurple" Icon="Core/Resources/Application/Icon_Rounded.ico">
+    <Grid>
+        <Image x:Name="SOURCE_IMG" Width="1920" Height="1080"></Image>
+    </Grid>
+</Window>

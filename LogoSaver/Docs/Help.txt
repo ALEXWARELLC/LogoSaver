@@ -1,0 +1,14 @@
+﻿Help | LogoSaver (For those who need it)
+
+1. Installation?
+	If your reading this then you already have LogoSaver installed!
+	LogoSaver is currently a standalone application meaning that there isn't any installation yet.
+	This may change as LogoSaver grows. 
+
+2. How do I add images?
+	To add images, simply hit 'End' on your keyboard while running LogoSaver
+	or double click 'ImageLoader.exe' and add your images that way.
+
+3. How do I close LogoSaver?
+	To close LogoSaver, hit 'Esc' on your keyboard, this will close LogoSaver without any issues. 
+	If LogoSaver stops responding you can hit 'Alt + F4'.

@@ -1,0 +1,15 @@
+﻿Minimum | This is the bare minimum for having a seamless experience.
+	- Intel Core i3 12100KF
+	- No GPU
+	- 4GB+ RAM
+	- Mouse & Keyboard
+	- 50MB+ Free HHD Space
+	- Microsoft Windows 10 / 11
+
+Recommended | You want to have a painless experience using LogoSaver.
+	- Intel Core i3 12100KF
+	- MSI GT 1030 2GB
+	- 8GB+ RAM
+	- Mouse & Keyboard
+	- 100MB+ Free HHD Space
+	- Microsoft Windows 10 / 11

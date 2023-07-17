@@ -1,0 +1,17 @@
+﻿<Window x:Class="LogoSaver.Core.UI.Windows.WND_ABOUT"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogoSaver.Core.UI.Windows"
+        mc:Ignorable="d"
+        Title="About LogoSaver" Height="475" Width="375" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#101010" Foreground="#dfdfdf" BorderThickness="1px" BorderBrush="MediumPurple" Topmost="True" MouseDown="Window_MouseDown" KeyDown="Window_KeyDown">
+    <Grid>
+        <Button x:Name="BUTTON_CLOSEWINDOW" Content="✕" Width="30" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,5,0" Background="Transparent" Foreground="#dfdfdf" BorderThickness="0" FontSize="16" Padding="0" Click="BUTTON_CLOSEWINDOW_Click" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" TextBlock.TextAlignment="Center"></Button>
+        <!--<Image x:Name="LOGO_APPICON" Source="Core/Resources/Application/Icon.png" Width="45px" Height="45px" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20, 20,0,0" Stretch="Fill"></Image>-->
+        <Label Margin="15,15,0,0" Name="LABEL_TITLE" Content="LogoSaver" Foreground="#dfdfdf" Height="50" Width="250" FontSize="35" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="0,0,0,0" FontWeight="Light" FontFamily="Content/Fonts/Poppins-Black.ttf"></Label>
+        <!--<ListBox x:Name="LIST_DEVELOPERS" Height="325" Width="300" FontFamily="Nirmala UI" FontSize="16" Background="#101010" Foreground="#dfdfdf"></ListBox>-->
+        <Label Margin="15,15,0,0" Name="LABEL_COMPANY" Content="Alexware LLC" Foreground="#dfdfdf" Height="50" Width="175" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Bottom" Padding="0,0,0,0"></Label>
+        <Label Margin="0,0,15,10" Name="LABEL_VERSION" Content="0.0.1a2" Foreground="#dfdfdf" Height="30" Width="70" FontSize="20" HorizontalAlignment="Right" VerticalAlignment="Bottom" Padding="0,0,0,0"></Label>
+    </Grid>
+</Window>
